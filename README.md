@@ -4,6 +4,7 @@
 This project builds a batch ETL pipeline that extracts Reddit posts from a selected subreddit, processes the data through Bronze, Silver, and Gold layers, and automates the workflow using Apache Airflow.  
 The pipeline simulates a cloud data engineering setup locally using Python, Airflow, and local file storage.
 
+
 ## Tech Stack
 - Python
 - Apache Airflow (Local Setup)
@@ -12,18 +13,6 @@ The pipeline simulates a cloud data engineering setup locally using Python, Airf
 - SQLite (optional for queries)
 - Matplotlib / Seaborn (for visualization)
 
-## Project Structure
-  DE-proj/
-  ├── dags/
-  ├── scripts/
-  ├── data/
-  │   ├── bronze/
-  │   ├── silver/
-  │   └── gold/
-  ├── visualization/
-  ├── notebooks/
-  ├── requirements.txt
-  └── README.md
 
 ## How to Run
 
