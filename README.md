@@ -35,11 +35,11 @@ The pipeline simulates a cloud data engineering setup locally using Python, Airf
 2. Install required packages and navigate to the project:
    ```bash
    pip install -r requirements.txt
-   cd DE-proj
 
 3. Setup Airflow:
+   ```bash
    - airflow db init
    - airflow scheduler
    - airflow webserver
   
-4. Trigger the DAG from the Airflow UI to start the ETL pipeline.
+5. Trigger the DAG from the Airflow UI to start the ETL pipeline.
