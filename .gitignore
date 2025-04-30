@@ -14,3 +14,6 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
+
+#Ignore the csv files
+raw_reddit_posts.csv
