@@ -17,3 +17,4 @@ __pycache__/
 
 #Ignore the csv files
 raw_reddit_posts.csv
+cleaned_reddit_posts.csvs
